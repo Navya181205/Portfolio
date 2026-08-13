@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import { ArrowDown, Download } from "lucide-react";
 import avatarImg from "../assets/avatar.png";
 import { useSoundEffect } from "../hooks/useSoundEffect";
-import { PORTFOLIO_INFO } from "../constants/portfolio";
+import { PORTFOLIO_INFO, handleResumeDownload } from "../constants/portfolio";
 
 const roles = [
   "ML Intern @ FlyRank",
@@ -177,9 +177,8 @@ export default function Hero({ soundEnabled }) {
         <a
           href={PORTFOLIO_INFO.resumeDownload}
           download="SS NAVYA_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 rounded-full glass text-white/80 text-sm font-medium hover:text-white hover:border-amber-500/30 transition-all duration-300 group"
+          onClick={handleResumeDownload}
+          className="flex items-center gap-2 px-6 py-3 rounded-full glass text-white/80 text-sm font-medium hover:text-white hover:border-amber-500/30 transition-all duration-300 group cursor-pointer"
         >
           <Download
             size={15}

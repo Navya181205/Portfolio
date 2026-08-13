@@ -10,7 +10,7 @@ import {
   X,
 } from "lucide-react";
 import { useSoundEffect } from "../../hooks/useSoundEffect";
-import { PORTFOLIO_INFO } from "../../constants/portfolio";
+import { PORTFOLIO_INFO, handleResumeDownload } from "../../constants/portfolio";
 import { cn } from "../../lib/utils";
 
 const sections = [
@@ -173,9 +173,8 @@ export default function FluidNav({ soundEnabled, onToggleSound }) {
             <a
               href={PORTFOLIO_INFO.resume}
               download="SS NAVYA_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-1.5 text-white/50 hover:text-amber-400 hover:bg-white/5 rounded-full transition-all duration-300"
+              onClick={handleResumeDownload}
+              className="p-1.5 text-white/50 hover:text-amber-400 hover:bg-white/5 rounded-full transition-all duration-300 cursor-pointer"
               aria-label="Resume"
             >
               <FileText size={15} />
@@ -251,9 +250,8 @@ export default function FluidNav({ soundEnabled, onToggleSound }) {
                 <a
                   href={PORTFOLIO_INFO.resume}
                   download="SS NAVYA_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/50 hover:text-amber-400 transition-colors"
+                  onClick={handleResumeDownload}
+                  className="text-white/50 hover:text-amber-400 transition-colors cursor-pointer"
                 >
                   <FileText size={24} />
                 </a>

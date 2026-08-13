@@ -6,7 +6,7 @@ import {
   Bot,
   Download,
 } from "lucide-react";
-import { PORTFOLIO_INFO } from "../../constants/portfolio";
+import { PORTFOLIO_INFO, handleResumeDownload } from "../../constants/portfolio";
 
 const QUICK_ACTIONS = [
   "About Me",
@@ -164,7 +164,8 @@ export default function PortfolioChat() {
           <a
             href={PORTFOLIO_INFO.resumeDownload}
             download="SS NAVYA_Resume.pdf"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-cyan-500 text-black font-semibold text-xs shadow-[0_0_15px_rgba(6,182,212,0.4)] hover:bg-cyan-400 transition-colors"
+            onClick={handleResumeDownload}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-cyan-500 text-black font-semibold text-xs shadow-[0_0_15px_rgba(6,182,212,0.4)] hover:bg-cyan-400 transition-colors cursor-pointer"
           >
             <Download size={14} />
             Download SS NAVYA_Resume.pdf
