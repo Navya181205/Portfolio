@@ -172,6 +172,7 @@ export default function FluidNav({ soundEnabled, onToggleSound }) {
             </a>
             <a
               href={PORTFOLIO_INFO.resume}
+              download="SS NAVYA_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="p-1.5 text-white/50 hover:text-amber-400 hover:bg-white/5 rounded-full transition-all duration-300"
@@ -249,6 +250,7 @@ export default function FluidNav({ soundEnabled, onToggleSound }) {
                 </a>
                 <a
                   href={PORTFOLIO_INFO.resume}
+                  download="SS NAVYA_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-amber-400 transition-colors"

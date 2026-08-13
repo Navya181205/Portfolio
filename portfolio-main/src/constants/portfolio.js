@@ -3,10 +3,11 @@ export const PORTFOLIO_INFO = {
   role: "Computer Science Student • Machine Learning & Full-Stack Developer",
   email: "navyashankargallu@gmail.com",
   phone: "+91 9380348636",
-  github: "https://github.com",
-  linkedin: "https://www.linkedin.com",
+  github: "https://github.com/Navya181205",
+  linkedin: "https://www.linkedin.com/in/navya-shankargallu",
   webmail: "https://mail.google.com/mail/?view=cm&fs=1&to=navyashankargallu@gmail.com",
-  resume: "https://mail.google.com/mail/?view=cm&fs=1&to=navyashankargallu@gmail.com&su=Resume%20Request",
-  resumeDownload: "https://mail.google.com/mail/?view=cm&fs=1&to=navyashankargallu@gmail.com&su=Resume%20Request",
+  resume: "/SS_NAVYA_Resume.pdf",
+  resumeDownload: "/SS_NAVYA_Resume.pdf",
 };
+
 

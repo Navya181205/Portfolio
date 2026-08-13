@@ -9,6 +9,7 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Writing from "./sections/Writing";
 import Contact from "./sections/Contact";
+import PortfolioChat from "./components/Chat/PortfolioChat";
 
 function App() {
   const [soundEnabled, setSoundEnabled] = useState(false);
@@ -47,6 +48,7 @@ function App() {
           <Writing />
           <Contact />
         </main>
+        <PortfolioChat />
       </div>
     </>
   );

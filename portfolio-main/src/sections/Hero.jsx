@@ -176,7 +176,7 @@ export default function Hero({ soundEnabled }) {
 
         <a
           href={PORTFOLIO_INFO.resumeDownload}
-          download="SS_NAVYA_Resume.pdf"
+          download="SS NAVYA_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 rounded-full glass text-white/80 text-sm font-medium hover:text-white hover:border-amber-500/30 transition-all duration-300 group"
