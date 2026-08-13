@@ -6,7 +6,7 @@ export const PORTFOLIO_INFO = {
   email: "navyashankargallu@gmail.com",
   phone: "+91 9380348636",
   github: "https://github.com/Navya181205",
-  linkedin: "https://www.linkedin.com/in/navya-shankargallu",
+  linkedin: "https://www.linkedin.com/in/navya-shankargallu/",
   webmail: "https://mail.google.com/mail/?view=cm&fs=1&to=navyashankargallu@gmail.com",
   resume: resumePdf,
   resumeDownload: resumePdf,
